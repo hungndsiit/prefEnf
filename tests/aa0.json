@@ -1,0 +1,10 @@
+{
+ "arguments": ["A1", "A2", "X1", "X2", "E1"],
+ "relations": {
+  "A1":["preference-dependent attacks:", "X1"],
+  "A2":["preference-independent attacks:", "X2"],
+  "X1":["preference-dependent attacks:", "A1"],
+  "X2":["preference-independent attacks:", "A1"],
+  "E1":["has sub-arguments:", "X1"]
+ }
+}
